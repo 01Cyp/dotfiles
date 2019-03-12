@@ -2,10 +2,14 @@
 	name = Cyprien Bouissou
 	email = cyprien.bouissou@smile.fr
 [alias]
-	st = status --short --branch
+	st = status -sb
 	ci = commit
         cia = commit -a
 	lg = log --decorate --oneline --graph
 	lga = log --decorate --oneline --graph --all
 	co = checkout
 	cob = checkout -b
+[core]
+	excludesfile = ~/.gitignore_global
+
+
