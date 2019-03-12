@@ -9,3 +9,7 @@
 	lga = log --decorate --oneline --graph --all
 	co = checkout
 	cob = checkout -b
+[core]
+	excludesfile = ~/.gitignore_global
+
+
