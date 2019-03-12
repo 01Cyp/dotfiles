@@ -2,7 +2,7 @@
 	name = Cyprien Bouissou
 	email = cyprien.bouissou@smile.fr
 [alias]
-	st = status -sb
+	st = status --short --branch
 	ci = commit
         cia = commit -a
 	lg = log --decorate --oneline --graph
