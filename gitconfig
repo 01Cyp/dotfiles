@@ -1,0 +1,10 @@
+[user]
+	name = Cyprien Bouissou
+	email = cyprien.bouissou@smile.fr
+[alias]
+	st = status -sb
+	ci = commit
+	lg = log --decorate --oneline --graph
+	lga = log --decorate --oneline --graph --all
+	co = checkout
+	cob = checkout -b
