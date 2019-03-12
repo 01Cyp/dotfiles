@@ -11,5 +11,13 @@
 	cob = checkout -b
 [core]
 	excludesfile = ~/.gitignore_global
-
-
+[rebase]
+	autosquash = true
+[merge]
+	tool = meld
+[diff]
+	tool = meld
+[mergetool]
+	prompt = false
+[rerere]
+	enabled = true
