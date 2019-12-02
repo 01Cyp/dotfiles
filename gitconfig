@@ -5,10 +5,11 @@
 	st = status -sb
 	ci = commit
         cia = commit -a
-	lg = log --decorate --oneline --graph
-	lga = log --decorate --oneline --graph --all
+        ciam = commit -am
 	co = checkout
 	cob = checkout -b
+	lg = log --decorate --oneline --graph
+	lga = log --decorate --oneline --graph --all
 [core]
 	excludesfile = ~/.gitignore_global
 [rebase]
